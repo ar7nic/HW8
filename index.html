@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Panakeia</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
 </head>
 <body>
 <div class="wrapper">
@@ -14,25 +14,30 @@
                 <img src="./assets/img/header/Panakeia.png" alt="Panakeia">
                 <img src="./assets/img/header/template.png" alt="Panakeia">
             </a>
-            <nav class="header__menu menu">
-                <ul class="menu__list">
-                    <li class="menu__item">
-                        <a href="" class="menu__link">Fusce at</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="" class="menu__link">Facilisis</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="" class="menu__link">Ante donec</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="" class="menu__link">Blandit rhoncus</a>
-                    </li>
-                    <li class="menu__item">
-                        <a href="" class="menu__link">Placerat</a>
-                    </li>
-                </ul>
-            </nav>
+            <div>
+                <nav class="header__menu menu">
+                    <ul class="menu__list">
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Fusce at</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Facilisis</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Ante donec</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Blandit rhoncus</a>
+                        </li>
+                        <li class="menu__item">
+                            <a href="#" class="menu__link">Placerat</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header__burger">
+                    <span></span>
+                </div>
+            </div>
         </div>
     </header>
     <section class="content-top">
@@ -65,26 +70,123 @@
     </section>
     <section class="news">
         <div class="news__container container">
-            <h2 class="news__tittle"></h2>
+            <h2 class="news__tittle">Our news</h2>
             <div class="news__body">
-                <div class="news__columns">
-                    <div class="news__item item-news">
-                        <div class="item-news__photo"><img src="./assets/img/news/news1.jpg" alt=""></div>
-                        <h3 class="item-news__tittle">Lorem ipsum</h3>
-                        <p class="item-news__text">Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.</p>
-                        <a href="#" class="item-news__button button">Read more</a>
-                    </div>
+                <div class="news__column">
+                    <article class="news__item">
+                        <div class="news__item-photo"><img src="./assets/img/news/news1.jpg" alt="Meal1"></div>
+                        <h3 class="news__item-tittle">Lorem ipsum</h3>
+                        <p class="news__item-text">Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.</p>
+                        <a href="#" class="news__item-button button">Read more</a>
+                    </article>
+                </div>
+                <div class="news__column">
+                    <article class="news__item">
+                        <div class="news__item-photo"><img src="./assets/img/news/news2.jpg" alt="Meal2"></div>
+                        <h3 class="news__item-tittle">Lorem ipsum</h3>
+                        <p class="news__item-text">Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.</p>
+                        <a href="#" class="news__item-button button">Read more</a>
+                    </article>
+                </div>
+                <div class="news__column">
+                    <article class="news__item">
+                        <div class="news__item-photo"><img src="./assets/img/news/news3.jpg" alt="Meal3"></div>
+                        <h3 class="news__item-tittle">Lorem ipsum</h3>
+                        <p class="news__item-text">Est a elit scelerisque vestibulum. Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis erat. Nulla vitae hendrerit odio.</p>
+                        <a href="#" class="news__item-button button">Read more</a>
+                    </article>
                 </div>
             </div>
         </div>
     </section>
-
-    <footer>
+    <section class="newsletter">
+        <div class="container newsletter__container">
+            <h2 class="newsletter__tittle">Newsletter</h2>
+            <p class="newsletter__sub-tittle">Ut arcu arcu, faucibus eu risus blandit, pulvinar viverra justo. Phasellus arcu justo, ullamcorper non diam sit amet, luctus condimentum metus</p>
+            <form action="#" class="newsletter__form" method="post" name="newsletter__form">
+                <label for="newsletter__email"></label>
+                <input type="email" name="newsletter__email" id="newsletter__email" class="newsletter__email" required placeholder="email adress">
+                <button class="newsletter__button button">Sign up</button>
+            </form>
+        </div>
+    </section>
+    <section class="examples">
         <div class="container">
-
+            <article class="examples__item">
+                <div class="examples__item-body">
+                    <h3 class="examples__tittle">Ipsum dolor sit amet</h3>
+                    <div class="examples__text">
+                        <p>Nam accumsan nunc sit amet elementum sollicitudin. Integer vel lacus eget tortor lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.</p>
+                        <p>Quisque ut erat ornare, feugiat turpis a, fringilla felis. Nulla molestie lorem et orci sagittis, et accumsan ex porta.</p>
+                    </div>
+                    <a href="#" class="examples__button button">Sign up</a>
+                </div>
+                <div class="examples__photo"><img src="./assets/img/Panakeia_photo1.jpg" alt="Photo1"></div>
+            </article>
+            <article class="examples__item examples__item_mir">
+                <div class="examples__item-body">
+                    <h3 class="examples__tittle">Ipsum dolor sit amet</h3>
+                    <div class="examples__text">
+                        <p>Nam accumsan nunc sit amet elementum sollicitudin. Integer vel lacus eget tortor lobortis tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.</p>
+                        <p>Quisque ut erat ornare, feugiat turpis a, fringilla felis. Nulla molestie lorem et orci sagittis, et accumsan ex porta.</p>
+                    </div>
+                    <a href="#" class="examples__button button">Sign up</a>
+                </div>
+                <div class="examples__photo"><img src="./assets/img/Panakeia_photo2.jpg" alt="Photo2"></div>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-menu">
+            <div class="footer-menu__container">
+                <nav class="footer-menu__row">
+                    <div class="footer-menu__cols">
+                        <div class="footer-menu__item">
+                            <ul class="footer-menu__list">
+                                <li class="footer-menu__list-item"><a href="#">Ad litora torquent</a></li>
+                                <li class="footer-menu__list-item"><a href="#">Per conubia</a></li>
+                                <li class="footer-menu__list-item"><a href="#">Nostra</a></li>
+                                <li class="footer-menu__list-item"><a href="#">Per inceptos</a></li>
+                                <li class="footer-menu__list-item"><a href="#">Himenaeos</a></li>
+                                <li class="footer-menu__list-item"><a href="#">In consectetur</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                        <div class="footer-menu__cols">
+                            <div class="footer-menu__item">
+                                <ul class="footer-menu__list">
+                                    <li class="footer-menu__list-item"><a href="#">Taciti sociosqu</a></li>
+                                    <li class="footer-menu__list-item"><a href="#">Ad litora torquent</a></li>
+                                    <li class="footer-menu__list-item"><a href="#">Per conubia</a></li>
+                                    <li class="footer-menu__list-item"><a href="#">Himenaeos</a></li>
+                                    <li class="footer-menu__list-item"><a href="#">In consectetur</a></li>
+                                    <li class="footer-menu__list-item"><a href="#">Nisi sed blandit</a></li>
+                                    <li class="footer-menu__list-item"><a href="#">Tincidunt</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    <div class="footer-menu__cols">
+                        <div class="footer-menu__item">
+                            <ul class="footer-menu__list">
+                                <li class="footer-menu__list-item"><a href="#">Nostra</a></li>
+                                <li class="footer-menu__list-item"><a href="#">Per inceptos</a></li>
+                                <li class="footer-menu__list-item"><a href="#">Himenaeos</a></li>
+                                <li class="footer-menu__list-item"><a href="#">In consectetur</a></li>
+                                <li class="footer-menu__list-item"><a href="#">Nisi sed blandit</a></li>
+                                <li class="footer-menu__list-item"><a href="#">Tincidunt</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <div class="footer-adv">
+            <div class="footer-adv__container">
+                <p class="footer-adv__text">Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                    Try awsome tool for desgners <a href="#">sumy.co</a></p>
+            </div>
         </div>
     </footer>
 </div>
-
 </body>
 </html>

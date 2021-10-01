@@ -1,3 +1,17 @@
-// -----------------------------------------------------------------------------
-// This file contains all styles related to the button component.
-// -----------------------------------------------------------------------------
+.button {
+  width: 213px;
+  height: 54px;
+  text-align: center;
+  @include current-font(18px,400,167%);
+  border-radius: 27px;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-color: $main-color;
+  color: #612316;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    color: $main-color;
+    background-color: $additional-color;
+  }
+}

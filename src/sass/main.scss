@@ -1,12 +1,12 @@
+@import "normalize/import-now";
+
 @import 'utils/variables';
 @import 'utils/mixins';
 
-@import "vendors/normalize";
 @import "base/null";
 
-@import 'base/basic';
 @import 'base/fonts';
-@import 'base/typography';
+@import 'base/basic';
 
 @import 'layout/header';
 @import 'layout/footer';
